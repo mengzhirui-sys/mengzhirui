@@ -193,7 +193,7 @@ if canteen == '白妈螺蛳粉':
     my_bar = st.progress(86, text=text5)
 st.header(' ::game_die:: 今日午餐推荐')
 
-if st.button('帮我选择午餐'):
+if st.button("帮我选择午餐"):
     random_num=random.randint(1,5)
     if random_num ==1:
         st.write(' ## `今日推荐：星艺会尝不忘` ')
